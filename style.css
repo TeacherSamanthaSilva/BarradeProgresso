@@ -1,0 +1,13 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #1D3327;
+}
+
+.container{
+    max-width: 50%;
+    margin: 0 auto;
+}
