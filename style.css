@@ -11,3 +11,44 @@ h1{
     max-width: 50%;
     margin: 0 auto;
 }
+
+.progress-bar{
+    width: 100%;
+    height: 20px;
+    background-color: #7C9487;
+    border-radius: 10px;
+}
+
+.progress{
+    width: 0%;
+    height: 100%;
+    background-color: #6EFADC;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+
+.controls{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: .4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #6EFAAD;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button i{
+    margin-left:0.2rem ;
+    margin-right: 0.2rem;
+}
+
+button:hover{
+    background-color: #1A4657;
+    color: #fff;
+}
